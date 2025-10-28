@@ -1,0 +1,58 @@
+[
+  {
+    "id": "eyewear_round",
+    "category": "eyewear",
+    "type": "round",
+    "display_name": "Round Glasses",
+    "asset_url": "https://github.com/skyXscraper/BruteForce/blob/main/overlays/eyeware_round.png",
+    "anchor": "eyes",
+    "anchor_landmarks": { "left": 33, "right": 263 },
+    "scale": { "mode": "distance", "multiplier": 3.0 },
+    "offset": { "x": 0, "y": -15 },
+    "rotation": { "mode": "angle_between_eyes", "offset_deg": 0 },
+    "mirrored": true,
+    "tags": ["round", "metal", "thin"]
+  },
+  {
+    "id": "eyewear_rectangle",
+    "category": "eyewear",
+    "type": "rectangle",
+    "display_name": "Rectangular Glasses",
+    "asset_url": "https://github.com/skyXscraper/BruteForce/blob/main/overlays/eyeware_rectangle.png",
+    "anchor": "eyes",
+    "anchor_landmarks": { "left": 33, "right": 263 },
+    "scale": { "mode": "distance", "multiplier": 3.2 },
+    "offset": { "x": 0, "y": -15 },
+    "rotation": { "mode": "angle_between_eyes", "offset_deg": 0 },
+    "mirrored": true,
+    "tags": ["rect", "square", "bold"]
+  },
+  {
+    "id": "earrings_jhumka",
+    "category": "earrings",
+    "type": "jhumka",
+    "display_name": "Traditional Jhumka Earrings",
+    "asset_url": "https://github.com/skyXscraper/BruteForce/blob/main/overlays/Jhumka.png",
+    "anchor": "ears",
+    "anchor_landmarks": { "left": 234, "right": 454 },
+    "scale": { "mode": "distance", "multiplier": 0.7 },
+    "offset": { "x": 0, "y": 5 },
+    "rotation": { "mode": "none", "offset_deg": 0 },
+    "mirrored": true,
+    "tags": ["jhumka", "earring", "traditional", "ethnic"]
+  },
+  {
+    "id": "necklace_default",
+    "category": "necklace",
+    "type": "choker",
+    "display_name": "Necklace",
+    "asset_url": "https://github.com/skyXscraper/BruteForce/blob/main/overlays/necklace.png",
+    "anchor": "neck",
+    "anchor_landmarks": { "left_shoulder": 11, "right_shoulder": 12 },
+    "scale": { "mode": "distance", "multiplier": 0.9 },
+    "offset": { "x": 0, "y": 35 },
+    "rotation": { "mode": "none", "offset_deg": 0 },
+    "mirrored": false,
+    "tags": ["necklace", "choker", "jewelry"]
+  }
+]
